@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5998316719035765870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5998316719035765864}
+  - component: {fileID: 5998316719035765865}
+  m_Layer: 0
+  m_Name: NetworkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5998316719035765864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5998316719035765870}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.38322684, y: -1.3294181, z: 2.749427}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5998316719035765865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5998316719035765870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 866059b0db558bb44b52b57f95671554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dummyPrefabReferences:
+    _serializedList:
+    - Key: Player
+      Value: {fileID: 3014173358573892712, guid: db43aab4656993647bf210c40366692a, type: 3}
+    - Key: Metalon
+      Value: {fileID: 4078271954320440152, guid: 72c22c0293707c344932d34045cab94e, type: 3}
+    - Key: Summoner
+      Value: {fileID: 5971413987424507491, guid: 6c459fc06fbb4f8469f037a3513827f7, type: 3}
+    - Key: Shooter
+      Value: {fileID: 2598079869737031379, guid: a99ace2350f403942b9ff178a49ad94d, type: 3}
+  functionalPrefabReferences:
+    _serializedList:
+    - Key: Player
+      Value: {fileID: 3014173358573892712, guid: db43aab4656993647bf210c40366692a, type: 3}
+    - Key: Metalon
+      Value: {fileID: 4078271954320440152, guid: 72c22c0293707c344932d34045cab94e, type: 3}
+    - Key: GOAP
+      Value: {fileID: 553842253299452075, guid: 57471a2dc3c28c2409294b42af7157df, type: 3}
+    - Key: Summoner
+      Value: {fileID: 5971413987424507491, guid: 6c459fc06fbb4f8469f037a3513827f7, type: 3}
+    - Key: Shooter
+      Value: {fileID: 2598079869737031379, guid: a99ace2350f403942b9ff178a49ad94d, type: 3}
+  playerSpawnPosition: {fileID: 0}
+  passedTime: 0
+  finalNetworkTime: 0.033

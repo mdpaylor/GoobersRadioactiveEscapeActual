@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/FPS Stuff/Scenes/MainMenu.unity
+    guid: 3823ee63fcb2c954eb01fa7af8cb2094
+  - enabled: 1
+    path: Assets/Scenes/gameoverscene.unity
+    guid: b4a686f50da1bdd458410f3aa2a9a0b4
+  - enabled: 1
+    path: Assets/FPS Stuff/Scenes/AIFlatLevel.unity
+    guid: bf73bc7017cc51141ab2522bea20a74d
+  - enabled: 1
+    path: Assets/FPS Stuff/Scenes/AIFlatLevelForNetwork.unity
+    guid: 013784903cbd8dc4982ba11ea59287bf
+  - enabled: 1
+    path: Assets/Scenes/Youwonthegame.unity
+    guid: c7f55283efb6e18479cad76f39ca7186
+  m_configObjects: {}
